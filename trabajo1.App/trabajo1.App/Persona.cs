@@ -1,4 +1,5 @@
-﻿namespace trabajo1.App
+﻿using System;
+namespace trabajo1.App
 {
     internal class Persona
     {
@@ -9,7 +10,6 @@
         internal string estadoCiv;
         internal string grupoSang;
         internal float peso;
-        internal bool comida;
         internal bool dinero;
 
         public Persona()
